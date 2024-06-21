@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(Designer.otf);
+        }
+        body{
+            margin: 0%;
+        }
+
+        section {
+            margin: 0%;
+            background-image: url(car\ and\ bike.webp);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
+        }
+
+        section img {
+            max-height: 40%;
+            max-width: 100%;
+        }
+
+        .head {
+            background-color: rgba(255, 208, 0, 0.901);
+            height: 70px;
+            padding-bottom: 5px;
+            border-style: solid;
+            border-color: 0px 0px 5px 0px black;
+            
+        }
+
+        .head input {
+            margin-top: 20px;
+            margin-left: 200px;
+            padding: 7px 200px;
+            border-radius: 10px;
+            float: left;
+        }
+
+        li {
+            float: left;
+            margin-left: 75px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 250px;
+            background-color: #ffd24f;
+            margin-top: 0px;
+        }
+
+        .head .log {
+            display: flex;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+
+        .head button {
+            margin-left: 15px;
+            padding: 2px;
+            margin-top: 25px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+
+        .login a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sign a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .login:hover {
+            background-color: #ffd24f;
+        }
+
+        .sign:hover {
+            background-color: #ffd24f;
+        }
+
+        .login {
+            margin-left: 200px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .sign {
+            margin-left: 15px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .and {
+            float: left;
+        }
+
+        .post h2 {
+            line-height: 1px;
+            font-family: myfont;
+        }
+
+        .head h1 {
+            font-family: myfont;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+
+        .post {
+            text-align: center;
+            margin-top: 5%;
+            line-height: 25px;
+        }
+
+        .post .safe {
+            font-size: 40px;
+            font-family: myfont;
+        }
+
+        .date {
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            margin-left: 33%;
+            margin-right: 33%;
+            margin-top: 3%;
+            padding: 0%;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .book {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        label {
+            display: block;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .up {
+            margin-left: 20%;
+            margin-bottom: 25px;
+        }
+
+        .up input {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border-color: #000000;
+
+        }
+
+        .pick {
+            margin-left: 30%;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border-color: #000000;
+        }
+
+        .drop {
+            margin-left: 30%;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border-color: black;
+        }
+
+        .off {
+            margin-left: 20%;
+            border-radius: 10px;
+        }
+
+        .off input {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border-color: #000000;
+
+        }
+
+        button {
+            margin-left: 43%;
+            margin-top: 15px;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            border-radius: 7px;
+            background-color: #ffd24f;
+        }
+        .offer{
+            
+            font-size: 25px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: #a85959;
+        }
+        .us{
+            background-image: url(images/city);
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            background-blend-mode: lighten;
+        }
+        .us{
+            text-align: center;
+            font-family: myfont;
+        }
+        .reason{
+            background-color: rgb(156, 138, 138);
+            height: 250px;
+            width: 750px;
+            margin-left: 375px;
+            font-family: myfont;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .reason .para{
+            margin-top: 50px;
+        }
+        .box h1{
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .bikes {
+            margin-left: 100px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+        .boses{
+            margin-left: 100px;
+        }
+
+        .box {
+            background-color: rgb(255, 208, 0);
+            height: 450px;
+            width: 400px;
+            text-align: center;
+            margin-left: 30px;
+            float: left;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+        .bikes :hover{
+            background-color: azure;
+        }
+
+        .box img {
+            height: 200px;
+            width: 300px;
+        }
+        footer {
+            font-size: 20px;
+        background-color: #9c9030;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 15%;
+        
+        }
+    .boses a{
+            text-decoration: none;
+            color: black;
+            padding: 8px 15px;
+            background-color: greenyellow;
+            border-radius: 10px;
+        }
+        .view img{
+            height: 50px;
+            width: 50px;
+            margin-top: 220px;
+            margin-left: 25px;
+        }
+    
+
+        /* /* .post .ride{
+            font-size: 50px;
+            font-family: myfont;
+            
+        } */
+    </style>
+</head>
+
+<body>
+    <section>
+    <div class="head">
+        <h1 class="and">WOW RENTALS</h1>
+        <input type="text" placeholder="Vechile You Are Looking.....">
+        <button type="submit">SEARCH</button>
+        <div class="log">
+            <div class="login">
+                <a href="login.html">REGISTER</a>
+            </div>
+            
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>Sanitized Vechils</li>
+            <li>Vechil Insurance</li>
+            <li>Roadside Assistance</li>
+            <li>Bike Maintainance</li>
+        </ul>
+    </nav>
+    <div class="post">
+        <h1 class="safe">SAFE AND SECURE RIDE</h1>
+        <h2>WITH WOW RENTALS</h2>
+    </div>
+
+    <div class="date">
+        <div class="book">
+            <h1>BOOK YOUR RIDE</h1>
+        </div>
+        <label>PICKUP CITY</label><br>
+        <input class="pick" type="text" placeholder="Pickup city.."><br>
+        <div class="up">
+            <input type="date">
+            <input type="time"><br>
+        </div>
+
+        <label>DROPOFF CITY</label><br>
+        <input class="drop" type="text" placeholder="Dropoff city.."><br>
+        <div class="off">
+            <input type="date">
+            <input type="time"><br>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </div>
+<br><br>
+</section>
+<!-- !-- <section>
+    <div class="offer">
+        <h1> 20% OFFER ON EVERY RENT</h1>
+    </div>
+</section> -->
+
+<article>
+    <div class="us">
+        <h1>WHY TO CHOOSE US?</h1>
+    </div>
+    <div class="reason">
+        <h1>MAXIMUM MILAGE AND BEST OFFERS</h1>
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing</p>
+        <p>printing and typesetting industry.</p>
+        <P>Lorem Ipsum is simply dummy text</P>
+    </div>
+</article>
+<div class="boses">
+<div class="box">
+    <h1>GT 650</h1>
+    <img src="gt.png">
+    <p>Rate : 250/HR</p>
+    <a href="gt.html">VIEW</a>
+</div>
+
+<div class="box">
+    <h1>MAESTRO</h1>
+    <img src="images/maestro.png">
+    <p>Rate : 50/HR</p>
+    <a href="gt.html">VIEW</a>
+</div>
+
+<div class="box">
+    <h1>KTM</h1>
+    <img src="images/ktm-1.png">
+    <p>Rate : 200/HR</p>
+    <a href="gt.html">VIEW</a>
+</div>
+</div>
+<div class="view">
+    <a href="view.html"><img src="images/view.png" alt=""></a>
+
+</div>
+<footer>
+    <p>for more details</p>
+    <p>Contact: wowrentals@mail.com</p>
+    
+</footer>
+
+    
+</body>
+
+</html>

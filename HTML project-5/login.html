@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(Designer.otf);
+        }
+        body{
+            margin: 0%;
+            background-image: url(images/log.jpg);
+        }
+
+        .head {
+            background-color: rgba(255, 208, 0, 0.901);
+            height: 70px;
+            padding-bottom: 5px;
+            border-style: solid;
+            border-color: 0px 0px 5px 0px black;
+            
+        }
+
+        .head input {
+            margin-top: 20px;
+            margin-left: 200px;
+            padding: 7px 200px;
+            border-radius: 10px;
+            float: left;
+        }
+
+        
+
+        .head .log {
+            display: flex;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+
+        .head button {
+            margin-left: 15px;
+            padding: 2px;
+            margin-top: 25px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            border-radius: 10px;
+        }
+
+        .login a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sign a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .login:hover {
+            background-color: #ffd24f;
+        }
+
+        .sign:hover {
+            background-color: #ffd24f;
+        }
+
+        .login {
+            margin-left: 200px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .sign {
+            margin-left: 15px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .and {
+            float: left;
+        }
+        .head h1 {
+            font-family: myfont;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        .form{
+            background-color: rgba(255, 234, 0, 0.5);
+            border-color: 2px solid red;
+            height: 500px;
+            width: 400px;
+            margin-left:100px;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 25px;
+        }
+        .form h1{
+            font-size: 20px;
+            font-family: myfont;
+        }
+        .details{
+            margin-top: 40px;
+            text-align: center;
+        }
+        label{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        input{
+            padding: 10px 25px;
+            border-radius: 10px;
+        }
+        .payment{
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button{
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+        button:hover{
+            background-color: greenyellow;
+        }
+        footer {
+            font-size: 20px;
+        background-color: #9c9030;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 15%;
+        padding-top: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 class="and">WOW RENTALS</h1>
+        <input type="text" placeholder="Vechile You Are Looking.....">
+        <button type="submit">SEARCH</button>
+        <div class="log">
+            <div class="login">
+                <a href="login.html">REGISTER</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="form">
+    <h1>REGISTRATION FORM</h1>
+    
+    <div class="details">
+        <label>NAME :</label><br>
+        <input type="text" placeholder="name"><br><br>
+        <label>Phone Number :</label><br>
+        <input type="text" placeholder="name"><br><br>
+        <label>Place :</label><br>
+        <input type="text" placeholder="name"><br><br>
+        <label>License :</label><br>
+        <input type="text" placeholder="name"><br><br>
+        <label class="payment">PAYMENT</label><br><br>
+        <button>GOOGLE PAY</button>
+        <button>PHONE PAY</button>
+    </div>
+</div>
+
+<footer>
+    <p>for more details</p>
+    <p>Contact: wowrentals@mail.com</p>
+    
+</footer>
+</body>
+</html>

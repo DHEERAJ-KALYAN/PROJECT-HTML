@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(Designer.otf);
+        }
+        body{
+            margin: 0%;
+            background-color: rgba(195, 190, 136, 0.677);
+        }
+        .box h1{
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .bikes {
+            margin-left: 100px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+        
+
+        .box {
+            background-color: rgb(255, 208, 0);
+            height: 450px;
+            width: 400px;
+            text-align: center;
+            margin-left: 30px;
+            float: left;
+        }
+        .bikes :hover{
+            background-color: azure;
+        }
+
+        .box img {
+            height: 200px;
+            width: 300px;
+        }
+
+        section {
+            clear: both;
+        }
+        #s2{
+            position: absolute;
+            margin-top: 400px;
+        }
+        #s3{
+            position: absolute;
+            margin-top: 990px;
+        }
+
+        .cars {
+            margin-left: 100px;
+            padding: 0px 0px 50px 0px;
+        }
+        .cars :hover
+        {
+            background-color: azure;
+        }
+        .cars #hdata:hover{
+            background-color: rgba(255, 234, 0, 0.677);width: 170px;
+
+        }
+        h1{
+            margin-top: 5px;
+        }
+        #s1 H1{
+            margin-top: 50px;
+        }
+        #s2 h1{
+            margin-top: 50px;
+        }
+        #s3 img{
+            margin-top: 10px;
+        }
+        
+        button{
+            margin-top: 2px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: yellowgreen;
+        }
+        .box p{
+            margin-top: 2px;
+            font-size: 25px;
+        }
+        #hdata{
+            margin-left: 50px;
+        }
+        .box a{
+            text-decoration: none;
+            color: black;
+            padding: 8px 15px;
+            background-color: greenyellow;
+            border-radius: 10px;
+
+        }
+        .head {
+            background-color: rgba(255, 208, 0, 0.901);
+            height: 70px;
+            padding-bottom: 5px;
+            border-style: solid;
+            border-color: 0px 0px 5px 0px black;
+            
+        }
+
+        .head input {
+            margin-top: 20px;
+            margin-left: 200px;
+            padding: 7px 200px;
+            border-radius: 10px;
+            float: left;
+        }
+
+        li {
+            float: left;
+            margin-left: 75px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 250px;
+            background-color: #ffd24f;
+            margin-top: 0px;
+        }
+
+        .head .log {
+            display: flex;
+            margin-left: 100px;
+            margin-top: 15px;
+        }
+
+        .head button {
+            margin-left: 15px;
+            padding: 2px;
+            margin-top: 25px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+        }
+
+        .login a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .sign a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .login:hover {
+            background-color: #ffd24f;
+        }
+
+        .sign:hover {
+            background-color: #ffd24f;
+        }
+
+        .login {
+            margin-left: 200px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .sign {
+            margin-left: 15px;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .and {
+            float: left;
+        }
+
+        .post h2 {
+            line-height: 1px;
+            font-family: myfont;
+        }
+
+        .head h1 {
+            font-family: myfont;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        footer {
+            font-size: 20px;
+        background-color: #9c9030;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="head">
+            <h1 class="and">WOW RENTALS</h1>
+            <input type="text" placeholder="Vechile You Are Looking.....">
+            <button type="submit">SEARCH</button>
+            <div class="log">
+                <div class="login">
+                    <a href="login.html"> REGISTER</a>
+                </div>
+                
+            </div>
+        </div>
+    <section>
+        <div class="bikes">
+            <h1 id="hdata">ROYAL BIKES</h1>
+            <div class="box">
+                <h1>GT 650</h1>
+                <img src="gt.png">
+                <p>Rate : 250/HR</p>
+                <a href="gt.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>HIMALAYAN</h1>
+                <img src="images/himalayan.png">
+                <p>Rate : 200/HR</p>
+                <a href="himalayan.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>CLASSIC BULLET</h1>
+                <img src="images/bullet.png">
+                <p>Rate : 150/HR</p>
+                <a href="enfield.html">VIEW</a>
+            </div>
+        </div>
+    </section>
+    <section id="s1">
+        <div class="cars">
+            <h1 id="hdata">SCOOTIES</h1>
+            <div class="box">
+                <h1>ACTIVA</h1>
+                <img src="images/activa.png">
+                <p>Rate : 75/HR</p>
+                <a href="activa.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>MAESTRO</h1>
+                <img src="images/maestro.png">
+                <p>Rate : 60/HR</p>
+                <a href="maestro.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>VESPA</h1>
+                <img src="images/VESPA-1.png">
+                <p>Rate : 100/HR</p>
+                <a href="vespa.html">VIEW</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="s2">
+        <div class="cars">
+            <h1 id="hdata">SPORT Bikes</h1>
+            <div class="box">
+                <h1>KTM</h1>
+                <img src="images/ktm-1.png">
+                <p>Rate : 250/HR</p>
+                <a href="ktm.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>HAYABUSA</h1>
+                <img src="images/haya.png">
+                <p>Rate : 500/HR</p>
+                <a href="hayabuza.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>NINJA</h1>
+                <img src="images/NIINJA.png">
+                <p>Rate : 550/HR</p>
+                <a href="ninja.html">VIEW</a>
+            </div>
+        </div>
+    </section>
+    <section id="s3">
+        <div class="cars">
+            <h1 id="hdata">LOCAL BIKES</h1>
+            <div class="box">
+                <h1>HONDA</h1>
+                <img src="images/honda.png">
+                <p>Rate : 50/HR</p>
+                <a href="honda.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>PULSUR</h1>
+                <img src="images/pulsur.png">
+                <p>Rate : 75/HR</p>
+                <a href="pulsur.html">VIEW</a>
+            </div>
+
+            <div class="box">
+                <h1>SHINE</h1>
+                <img src="images/SHINE-4.png">
+                <p>Rate : 50/HR</p>
+                <a href="shine.html">VIEW</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>for more details</p>
+        <p>Contact: wowrentals@mail.com</p>
+        
+    </footer>
+    
+</body>
+
+</html>
